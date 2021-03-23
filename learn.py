@@ -18,4 +18,14 @@ sorted_keys = sorted(verse_dict.keys())
 print(sorted_keys)
 
 # find the element with the highest value in the list of keys
-print(sorted_keys[-1]) 
+print(sorted_keys[-1])  
+
+#conditions
+prize = 3
+
+if prize:
+    result = "Congratulations! You won a {}!".format(prize)
+else:
+    result = "Oh dear, no prize this time."
+
+print(result)
